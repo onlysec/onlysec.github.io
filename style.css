@@ -1,0 +1,128 @@
+
+
+
+/* general styling */
+:root {
+    --smaller: .75;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    align-items: center;
+    background-color: #ccf5ff;
+    display: flex;
+    font-family: -apple-system, 
+      BlinkMacSystemFont, 
+      "Segoe UI", 
+      Roboto, 
+      Oxygen-Sans, 
+      Ubuntu, 
+      Cantarell, 
+      "Helvetica Neue", 
+      sans-serif;
+  }
+  
+  .container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    /*background-color:#a4f4f9;*/
+    width: 85px;
+    height: 85px;
+    /*border: 0.5px solid #a4f4f9;*/
+    /*color:#80daeb;*/
+    font-weight: 250;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5;
+    color:;
+  }
+  
+  p{
+
+  height:300px;
+  font-weight: 320;
+  color:#080808;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(4.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    /*  border: 0.25px solid #a4f4f9;*/
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+p{
+  
+  font-size: 16px;
+  
+}
+  }
+  
+  #time0{
+   font-weight: 250;
+    font-size: 70px;
+    
+  }
+  
+  
+  
+@media all and (min-width: 768px) {  
+    h1 {
+      font-size: calc(13rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(3rem * var(--smaller));
+      width:215px;
+      height:215px;
+    }
+    
+    li span {
+      font-size: calc(6rem * var(--smaller));
+    }
+  #time0 {
+      
+
+   font-weight: 250;
+
+    font-size: 85px;
+  
+  }
+  p{
+    font-size:40px;
+  }
+}
